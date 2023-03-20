@@ -4,149 +4,154 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./index.css" rel="stylesheet" type="text/css">
+    <!-- title for browser -->
     <title>Zoo List</title>
+    <script src="https://kit.fontawesome.com/174f7f06dd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- main header - purpose is self evident -->
-    <header>
-        <div id="logo">
+    <!-- Main header -  -->
+    <header class="header-wrapper">
+        <div id="left-column">
+            <img src="https://thumbs.dreamstime.com/b/business-vector-logo-design-template-lion-zoo-stylized-white-background-illustration-50456264.jpg" alt="logo" width="100px">
+            <span>Club Zoo</span>
+        </div>
+
+        <div class="middle-column">
+            <span>Animal List</span>
+            <i class="fa-solid fa-magnifying-glass"></i>
 
         </div>
 
-        <span>Animal List</span>
+        <div class="right-column">
+            <nav class="nav-wrapper">
+                <ul>
+                    <a href="./home.html"><li>Home</li></a>
+                    <a href="./faq.html"><li>FAQ</li></a>
+                    <a href="./visit.html"><li>Plan Your Visit</li></a>
+    
+                </ul>
+            </nav>
 
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>FAQ</li>
-                <li>Plan Your Visit</li>
-
-            </ul>
-        </nav>
-
-        <div id="search">
 
         </div>
+        
 
     </header>
 
     <main id="animal-list">
 
         <section id="bears" >
-            <!-- Animal heading -->
-            <h2>Bears</h2>
-            <!-- Animal names -->
-            <ol>
-                <li>Ollie</li>
-                <li>Mona</li>
-            </ol>
-            
-            <div class="description">
-                <p>
+            <div class="animal-section">
+                <!-- Animal heading -->
+                <h2>Bears</h2>
+                <!-- Animal names with images-->
+                <ol>
+                    <li>Ollie</li>
+                    <img src="https://media.tenor.com/xrldoiZ-bgEAAAAC/bear-dance.gif" alt="bear dancing" width="200px">
+                    <li>Mona</li>
+                    <img src="https://j.gifs.com/0gpWoV.gif" width='200' alt="winnie the pooh dancing">
+                </ol>
 
-                </p>
+                <!-- external link using button  -->
 
+                <div class="link">
+                    <a href="https://www.wildawareutah.org/wildlife/bears/" target="_blank"><button>Click For Bear Facts!</button></a>
+                </div>            
             </div>
-            
-            <!-- external link for the species  -->
-            <span> More bear info</span>
-            <!-- cool images -->
-            <img src="" alt="" width="">
-        
         </section>
         
         <section id="giraffes" >
-            <!-- Animal heading -->
-            <h2>Giraffes</h2>
-            <!-- Animal names -->
-            <ol>
-                <li>Frankie</li>
-                <li>Coconut</li>
-            </ol>
-            
-            <div class="description">
-                <p>
+            <div class="animal-section">
 
-                </p>
+                <!-- Animal heading -->
+                <h2>Giraffes</h2>
+                <!-- Animal names -->
+                <ol>
+                    <li>Frankie</li>
+                    <img src="https://th-thumbnailer.cdn-si-edu.com/JSv1cLbd49hT1aAt_qOjyxEAXjM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/0c/5f/0c5fc6f8-1b9b-4510-8b15-163482a3e041/istock_6413768_medium.jpg" alt="giraffe" width="200px">
+                    <li>Coconut</li>
+                    <img src="https://as2.ftcdn.net/v2/jpg/02/53/13/33/1000_F_253133363_bcafWUMFbHYI5DQeOWhVnjP3d9JTYpnz.jpg" alt="futuristic giraffe" width="200px">
+                </ol>
+                
+                <!-- external link using button  -->
 
+                <div class="link">
+                    <a href="https://www.dosomething.org/us/facts/11-facts-about-giraffes" target="_blank"><button>Click For Giraffe Facts!</button></a>
+                </div>            
             </div>
-            
-            <!-- external link for the species  -->
-            <span> More giraffe info</span>
-            <!-- cool images -->
-            <img src="" alt="" width="">
         
         </section>
 
         <section id="lions" >
-            <!-- Animal heading -->
-            <h2>Lions</h2>
-            <!-- Animal names -->
-            <ol>
-                <li>Mella</li>
-                <li>Karl</li>
-            </ol>
-            
-            <div class="description">
-                <p>
+            <div class="animal-section">
 
-                </p>
+                <!-- Animal heading -->
+                <h2>Lions</h2>
+                <!-- Animal names -->
+                <ol>
+                    <li>Mella</li>
+                    <img src="https://www.grunge.com/img/gallery/the-dog-breed-that-once-hunted-lions/intro-1587055128.webp" alt="pug-lion" width="200px">
+                    <li>Karl</li>
+                    <img src="https://thumbs.dreamstime.com/z/burgos-spain-oct-prehistoric-lion-model-display-museum-human-evolution-232689849.jpg" alt="pre-historic lion" width="200px">
+                </ol>
+                
+                <!-- external link using button  -->
 
+                <div class="link">
+                    <a href="https://www.wwf.org.uk/learn/fascinating-facts/lions" target="_blank"><button>Click For Lion Facts!</button></a>
+                </div>            
             </div>
-            
-            <!-- external link for the species  -->
-            <span> More lion info</span>
-            <!-- cool images -->
-            <img src="" alt="" width="">
         
         </section>
 
          <section id="monkey" >
-            <!-- Animal heading -->
-            <h2>Monkeys</h2>
-            <!-- Animal names -->
-            <ol>
-                <li>Cookie</li>
-                <li>Earl</li>
-                <li>Banana Pudding</li>
-            </ol>
-            
-            <div class="description">
-                <p>
+            <div class="animal-section">
 
-                </p>
+                <!-- Animal heading -->
+                <h2>Monkeys</h2>
+                <!-- Animal names -->
+                <ol>
+                    <li>Cookie</li>
+                    <img src="https://as1.ftcdn.net/v2/jpg/05/49/56/62/1000_F_549566283_ld7v94hB0GM37jR6nODZzbY94XOCsC42.jpg" alt="cool chimp" width="300px">
+                    <li>Earl</li>
+                    <img src="https://i.redd.it/v193lojhddb91.jpg" alt="chimp wearing a sweater" width="200px">
+                    <li>Banana Pudding</li>
+                    <img src="https://steemitimages.com/DQmabEorTzh92Je3jUjCPpDADiNZvDCCnYiwq1c7ryy6qhD/2017-11-17-22-22-05-745.jpg" alt="monkey with camera" width="200px">
+                </ol>
+                
+                <!-- external link using button  -->
 
+                <div class="link">
+                    <a href="https://www.treehugger.com/things-you-didnt-know-about-monkeys-4869728" target="_blank"><button>Click For Monkey Facts!</button></a>
+                </div>            
             </div>
-            
-            <!-- external link for the species  -->
-            <span> More monkey info</span>
-            <!-- cool images -->
-            <img src="" alt="" width="">
         
         </section>
 
         <section id="alligators" >
-            <!-- Animal heading -->
-            <h2>Alligators</h2>
-            <!-- Animal names -->
-            <ol>
-                <li>Wren</li>
-                <li>Aspen</li>
-                <li>Mika</li>
-            </ol>
-            
-            <div class="description">
-                <p>
+            <div class="animal-section">
 
-                </p>
+                <!-- Animal heading -->
+                <h2>Alligators</h2>
+                <!-- Animal names -->
+                <img src="https://www.shutterstock.com/image-photo/three-adult-alligators-line-water-600w-1390708670.jpg" alt="three alligators" width="400px">
 
+                <ol>
+                    <li>Wren</li>
+                    <li>Aspen</li>
+                    <li>Mika</li>
+                </ol>
+                
+                <!-- external link using button  -->
+
+                <div class="link">
+                    <a href="https://myfwc.com/wildlifehabitats/wildlife/alligator/facts/" target="_blank"><button>Click For Alligator Facts!</button></a>
+                </div>            
             </div>
-            
-            <!-- external link for the species  -->
-            <span> More alligator info</span>
-            <!-- cool images -->
-            <img src="" alt="" width="">
-        
         </section>
 
     </main>
